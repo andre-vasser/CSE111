@@ -1,0 +1,6 @@
+a=float(input("Input Value for A"))
+b=float(input("Input Value for B"))
+c=float(input("Input Value for C"))
+d=float(input("Input Valeu for D"))
+x=a/b*(a/(c**2+d**2))
+print(f"Your Answer is{x:.3f})")

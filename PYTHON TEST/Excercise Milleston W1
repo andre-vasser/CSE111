@@ -1,0 +1,6 @@
+import math
+def compute_data(w,a,d):
+   return (math.pi * w * w * (a * ( w * a + 240 * d))) / 10,000,000,000
+print(compute_data (185,50,14))
+print(compute_data (205,60,15))
+print (compute_data)
